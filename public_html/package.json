@@ -1,0 +1,12 @@
+{
+    "name": "mi-primer-cliente-web",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "T-107",
+    "contributors": [],
+    "dependencies": {
+        
+        "jquery":"3.1.1",
+        "bootstrap":"3.3.7"
+    }
+}
