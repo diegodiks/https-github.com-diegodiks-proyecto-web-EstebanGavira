@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <center><h1>PROYECTO FINAL</h1><center></center>
+                    <img src="lgo.png" class="img-responsive" alt="Responsive image" height="300" width="300">
+                    </div>
+                    <div class="panel-body">
+                        <div id="etiqueta1">Numero de registro
+                            <input type="text" placeholder="001" id="id">
+                        </div>
+                        <br>
+                        <div id="etiqueta2">Fecha de registro
+                            <input type="text" placeholder="2016-01-01" id="fec_inicio">
+
+                            Fecha de consulta
+                            <input type="text" placeholder="2016-01-01" id="fec_final">
+
+                        </div>
+
+                        <br>
+                        <div id="etiqueta4">Responsable
+                            <input type="text" placeholder="Nombre" id="responsable">
+                            Cliente
+                            <input type="text" placeholder="Nombre" id="cliente">
+                        </div>
+                        
+                        <br>
+                        <div id="etiqueta5">Descripcion
+                            <textarea class="form-control" rows="3" id="descripcion"></textarea>       
+                        </div>
+                        <br>
+                        <div class="alert alert-success" id="etiqueta"></div>
+                        <center>
+                            <button class="btn btn-danger" id="boton">Guardar</button>
+                            <button id="boton-buscartodos" class="btn btn-success">Buscar todos</button>
+                            <button id="boton-actualizar" class="btn btn-default">Actualizar</button>
+                            <button id="boton-borrar" class="btn btn-primary">Borrar</button>
+                        </center>
+                        <div class="container">
+                            <br>
+                            <div class="panel panel-info" >
+                                 <div class="panel-heading">
+                                     CONSULTAS
+                                 </div>
+                                 </div>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr class="bg-primary">
+                                        <th>Numero registro</th>
+                                        <th>Fecha registro</th>
+                                        <th>Fecha consulta</th>
+                                        <th>Fecha responsable</th>
+                                        <th>Fecha cliente</th>
+                                        <th>Descripcion</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tabla">
+                                </tbody>
+                            </table>
+                        </div>
+                        <script src="agenda.js"></script>
+                    </div>
+            </div>
+
+
+    </body>
+</html>
